@@ -47,6 +47,23 @@ nav li{
 
 }
 
+#sections{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+
+.img-cube img{
+    display: flex;
+    height: 355px;
+    width: 293px;
+    margin:30px 12px 20px 0px;
+    border-bottom-right-radius: 50px ;
+
+}
+
+
 
 
 
