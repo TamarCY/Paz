@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    direction: rtl;
+    text-align: right;
+    margin:0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+}
+
+footer li{
+    list-style-type:none;
+    padding:0.2rem;
+}
+
+footer ul {
+    display:flex;
+    justify-content: center;   
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 38px;
+    background-image: linear-gradient(to bottom, #b2b3b7, #adadb0, #a8a8aa, #a2a2a3, #9d9d9d);
+    color:white;
+}
+
