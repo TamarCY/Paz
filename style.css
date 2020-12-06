@@ -71,13 +71,14 @@ nav li{
 .img-text{
     background-color: #9d9d9d;
     opacity: 0.9;
-    width: 248px;
-    height: 97px;
+    width: 258px;
+    height:107px;
     border-bottom-right-radius: 25px ;
     position: absolute;
     bottom: 25px;
     right:20px;
-    padding-right: 10px;
+    padding: 0px 10px 5px 10px;
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: white;
@@ -99,14 +100,16 @@ nav li{
     
 }
 
-.left{
+#left{
     color:white;
-    text-align: end;
+    text-align: left;
+    text-decoration: white;
 }
 
-.left {
-    margin-bottom: 4px;
+#left a{
+    text-decoration: underline;
 }
+
 
 
 
