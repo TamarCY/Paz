@@ -59,10 +59,54 @@ nav li{
     height: 355px;
     width: 293px;
     margin:30px 12px 20px 0px;
-    border-bottom-right-radius: 50px ;
+    border-bottom-right-radius: 25px ;
+    
 
 }
 
+.img-cube{
+    position: relative;
+}
+
+.img-text{
+    background-color: #9d9d9d;
+    opacity: 0.9;
+    width: 248px;
+    height: 97px;
+    border-bottom-right-radius: 25px ;
+    position: absolute;
+    bottom: 25px;
+    right:20px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: white;
+    
+    
+
+    
+}
+
+
+.img-text p{
+    margin: 4px 0px 0px;
+}
+
+.img-text h3{
+    font-size: 14px;
+    padding: 0px;
+    margin: 6px 0px 0px;
+    
+}
+
+.left{
+    color:white;
+    text-align: end;
+}
+
+.left {
+    margin-bottom: 4px;
+}
 
 
 
