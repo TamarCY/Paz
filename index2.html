@@ -133,12 +133,38 @@
                     צור קשר
                 </p>
             </div>
-            <h5>צור קשר</h5>
+            <h3 id="border">צור קשר</h3>
             <div id="form-div">
-               <h5>צור קשר</h5> 
-               <h6>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</h6>
+               <h3>צור קשר</h3> 
+               <h4>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :<h4>
                 <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה</p>
-                <form action=""></form>
+                <form action="">
+                    <div class="fields">
+                        <div class=line>
+                            <label for="first_name">* שם פרטי</label>
+                            <input type="text" reuired maxlength= 10  ”readonly =””/>
+                        </div>
+                        <div class="line">
+                            <label for="last_name">* שם משפחה</label>
+                            <input type="text" reuired maxlength= 10  ”readonly =””/>
+                        </div>
+                        <div class="line">
+                            <label for="phone">* טלפון</label>
+                            <input type="text" reuired maxlength= 10  ”readonly =””/>
+                        </div>
+                        </div>  
+                            
+                        <div class="line">
+                            <label for="mail">* E-mail</label>
+                            <input type="email" 
+                            reuired maxlength= 10  ”readonly =””/>
+                       </div>
+                       <div class="line">
+                            <textarea id="comments" rows="5" cols="20" placeholder="תוכן הפנייה" onfocus="this.value = ''" ></textarea>
+                        </div>
+                        <button type="submit">שלח</button>
+                    </div>
+                </form>
             </div>
         </div>
         <div class="column">
