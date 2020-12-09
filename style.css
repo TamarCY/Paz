@@ -127,6 +127,10 @@ input{
     color: white;
 }
 
+#sections a:hover{
+    color: #005ca0;
+}
+
 
 .img-cube img{
     display: flex;
@@ -179,10 +183,7 @@ input{
 
 }
 
-.left img{
-    widows: 1px;
-    height: 5px;
-}
+
 
 
 
@@ -272,6 +273,11 @@ input{
       font-weight: 50;
 
 
+}
+
+#contact a:hover{
+    color: #005ca0;
+    text-decoration: underline;
 }
 
 #contact h4{
